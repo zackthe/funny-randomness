@@ -112,7 +112,7 @@ function displaymovie(result){
             <div class="description">
                 <h3 class="title">${result.title}</h3>
                 <p class="overview">${result.overview}</p>
-                <p class="release_date"><span class='bold'>release_date: </span> : ${result.release_date}</p>
+                <p class="release_date"><span class='bold'>Release date: </span> : ${result.release_date}</p>
                 <p class="rating"><span class='bold'>Rating:</span> ${result.vote_average}<img class='star' src="img/star.svg" alt=""></p>
                 
             </div>

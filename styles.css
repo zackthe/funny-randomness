@@ -169,10 +169,8 @@ body{
 
 .modal-title{
     color: white;
-    font-size: 30px
+    font-size: 20px
 }
-
-
 
 
 .bg-modal{
@@ -203,7 +201,7 @@ body{
 
 .modal-content{
     min-width: 330px;
-    height: 620px;
+    height: 590px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
@@ -257,27 +255,30 @@ body{
     align-self: center;
     position: absolute;
     bottom: 1em;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     outline: none;
     background-color: 272343;
     color: white;
     right: 1.4em;
+    width: 220px;
+    height: 35px;
 }
 
 .previous-btn{
     left: 1.9em;
-    font-size: 20px;
-
+    font-size: 15px;
+    height: 35px;
+    width: 50px;
 }
 
 .title{
-    font-size: 20px
+    font-size: 16px
 }
 
 .overview{
     /*font-size: calc(0.8rem + 0.2vw);*/
-    font-size: 14px;
+    font-size: 13px;
     overflow: hidden;
    text-overflow: ellipsis;
    display: -webkit-box;
