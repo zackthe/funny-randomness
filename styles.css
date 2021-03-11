@@ -211,7 +211,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: var(--clr-dark-blue);
+    background-color: #0A0A0B /*var(--clr-dark-blue);*/
 }
 
 .button-exit{
@@ -240,12 +240,12 @@ body{
 
 
 .content > *{
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     color: white;
 }
 
 .description > *{
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 .generate-btn{
@@ -258,18 +258,20 @@ body{
     font-size: 15px;
     cursor: pointer;
     outline: none;
-    background-color: 272343;
+   /* background-color: 272343;*/
+    background-color: #DB1937;
     color: white;
-    right: 1.4em;
-    width: 220px;
+    right: 1.7em;
+    width: 210px;
     height: 35px;
 }
 
 .previous-btn{
-    left: 1.9em;
+    left: 2.4em;
     font-size: 15px;
     height: 35px;
     width: 50px;
+    background-color: #DB1937;
 }
 
 .title{
