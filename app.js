@@ -158,9 +158,9 @@ function displayquotes(quote){
     let content =`<div class="content">     
 
             <div class="description">
-                <h3 class="title">title : ${quote.text}</h3>
-                <p class="overview"><span class='bold'>auhor: </span> ${quote.author}</p>
-                <p class="release_date"><span class='bold'>tag: </span> : ${quote.tag}</p>                
+                <h3 class="quote__title">${'"'+quote.text+'"'}</h3>
+                <p class="quote__author"><span class='bold'>auhor: </span> ${quote.author}</p>
+                <p class="quote__tag"><span class='bold'>tag: </span> ${quote.tag}</p>                
             </div>
          </div>`;
     

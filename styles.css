@@ -9,6 +9,7 @@
     --clr-dark-blue : #04030B;
     --clr-light-blue : #252443;
     --clr-light-grey : #3E424E;
+    --clr-red : #DB1937;
     
 }
 
@@ -71,7 +72,13 @@ body{
 }*/
 
 .app-title{
-    color: E09F3E;
+    color:  white;;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.randomness{
+    color: var(--clr-red);
 }
 
 /*=========== CARD SECTION  ===========*/
@@ -118,7 +125,7 @@ body{
 
 
 .movies-card{
-  background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.37)), url(img/movies.jpg);
+  background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.37)), url(img/1.jpg);
 
 }
 
@@ -134,7 +141,7 @@ body{
 }
 
 .animes-card{
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/animes.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/22.jpg);
     
 }
 
@@ -144,7 +151,7 @@ body{
 }
 
 .tvshows-card{
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/tv-shows.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/3.jpeg);
     
 }
 
@@ -154,7 +161,7 @@ body{
 }
 
 .quotes-card{
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/jokes.jpg);
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(img/4.jpg);
     
 }
 
@@ -295,6 +302,27 @@ body{
 .star{
     width: 11px;
     margin-left: 10px;
+}
+
+
+/************ quote ***********/
+
+.quote__title{
+
+    font-size: 17px;
+    margin-top: 9em;
+    text-align: center;
+    
+}
+
+.quote__author {
+    text-align: center;
+
+}
+
+.quote__tag{
+        text-align: center;
+
 }
 
 
