@@ -10,6 +10,7 @@
     --clr-light-blue : #252443;
     --clr-light-grey : #3E424E;
     --clr-red : #DB1937;
+    --box-shadow : 0 15px 30px 0 rgba(0.15,0.15,0.15,0.20);  
     
 }
 
@@ -102,6 +103,7 @@ body{
     background-color:  rgba(0, 0, 0, 0.5);
     transition: all ease-in 0.25s;
     cursor: pointer;
+    box-shadow: var(--box-shadow);
 }
 
 .card-title{
